@@ -21,10 +21,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="134dp"
+        android:layout_marginEnd="146dp"
         android:layout_marginTop="86dp"
         android:background="@android:color/transparent"
-        android:onClick="Popup"
         android:text="@string/east_asia" />
+
+    <Button
+        android:id="@+id/buttonEurope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonEastAsia"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="98dp"
+        android:layout_toStartOf="@+id/buttonEastAsia"
+        android:background="@android:color/transparent"
+        android:text="Europe" />
 
 </RelativeLayout>
